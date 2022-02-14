@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-screen-orientation",
+  "name": "@KL-Engineering/cordova-plugin-screen-orientation",
   "version": "3.0.2",
   "description": "Cordova Screen Orientation plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-screen-orientation"
+    "url": "https://github.com/KL-Engineering/cordova-plugin-screen-orientation"
   },
   "bugs": {
     "url": "https://github.com/apache/cordova-plugin-screen-orientation/issues"
@@ -44,5 +44,8 @@
         "cordova": ">100"
       }
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
